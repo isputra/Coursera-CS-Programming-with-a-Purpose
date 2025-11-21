@@ -1,5 +1,5 @@
 /* *****************************************************************************
- *  Name:              Ada Lovelace
- *  Coursera User ID:  123456
- *  Last modified:     October 16, 1842
+ *  Name:              Ikhsan Sigma Putra
+ *  Coursera User ID:  ikhsanputra@gmail.com
+ *  Last modified:     November 21, 2025
  **************************************************************************** */

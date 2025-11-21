@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="Solution of the programming assignment Hello, World.">
+      <change afterPath="$PROJECT_DIR$/BandMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeneralizedHarmonic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RandomWalker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RandomWalkers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fileTemplates/includes/File Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fileTemplates/includes/File Header.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMYKtoRGB.java" beforeDir="false" afterPath="$PROJECT_DIR$/CMYKtoRGB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GreatCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreatCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RightTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/RightTriangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +29,11 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
     <option name="SCHEME" value="Project" />
   </component>
   <component name="FindBugs-IDEA-Workspace">
@@ -39,18 +46,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "isputra"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;isputra&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/isputra/Coursera-CS-Programming-with-a-Purpose.git",
-    "accountId": "d8fecad7-e196-4080-9327-cbb3265505cf"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/isputra/Coursera-CS-Programming-with-a-Purpose.git&quot;,
+    &quot;accountId&quot;: &quot;d8fecad7-e196-4080-9327-cbb3265505cf&quot;
   }
-}]]></component>
+}</component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
@@ -100,11 +107,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BandMatrix.executor": "Run",
     "Application.CMYKtoRGB.executor": "Run",
+    "Application.GeneralizedHarmonic.executor": "Run",
     "Application.GreatCircle.executor": "Run",
     "Application.GreatCircle2.executor": "Run",
     "Application.HelloGoodbye.executor": "Run",
     "Application.HelloWorld.executor": "Run",
+    "Application.RandomWalker.executor": "Run",
+    "Application.RandomWalkers.executor": "Run",
     "Application.RightTriangle.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -120,11 +131,27 @@
       <recent name="$PROJECT_DIR$/hello" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CMYKtoRGB">
+  <component name="RunManager" selected="Application.RandomWalkers">
+    <configuration name="BandMatrix" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BandMatrix" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="8 3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CMYKtoRGB" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CMYKtoRGB" />
       <module name="Computer Science" />
       <option name="PROGRAM_PARAMETERS" value="0.953125 0.5 0.703125 0.515625" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeneralizedHarmonic" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GeneralizedHarmonic" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="3 1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,6 +187,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RandomWalker" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RandomWalker" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomWalkers" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RandomWalkers" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="160 100000" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RightTriangle" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RightTriangle" />
       <module name="Computer Science" />
@@ -169,6 +212,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.BandMatrix" />
+      <item itemvalue="Application.RandomWalker" />
+      <item itemvalue="Application.RandomWalkers" />
+      <item itemvalue="Application.GeneralizedHarmonic" />
       <item itemvalue="Application.GreatCircle" />
       <item itemvalue="Application.GreatCircle2" />
       <item itemvalue="Application.RightTriangle" />
@@ -269,16 +316,5 @@
     <MESSAGE value="Init with Project skeleton" />
     <MESSAGE value="Solution of the programming assignment Hello, World." />
     <option name="LAST_COMMIT_MESSAGE" value="Solution of the programming assignment Hello, World." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/RightTriangle.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
