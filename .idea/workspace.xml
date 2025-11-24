@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="Solution of the programming assignment Hello, World.">
-      <change afterPath="$PROJECT_DIR$/BandMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeneralizedHarmonic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RandomWalker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RandomWalkers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fileTemplates/includes/File Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fileTemplates/includes/File Header.java" afterDir="false" />
+    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="Solution of the programming assignment Conditionals and Loops.">
+      <change afterPath="$PROJECT_DIR$/BinomialCoefficients.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Birthday.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BirthdayOther.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DiscreteDistribution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FindDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MatrixMultiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Minesweeper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThueMorse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,21 +111,33 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BandMatrix.executor": "Run",
+    "Application.BinomialCoefficients.executor": "Run",
+    "Application.Birthday.executor": "Run",
+    "Application.Birthday0.executor": "Run",
+    "Application.Birthday1.executor": "Run",
+    "Application.Birthdays.executor": "Run",
     "Application.CMYKtoRGB.executor": "Run",
+    "Application.DiscreteDistribution.executor": "Run",
+    "Application.FindDuplicate.executor": "Run",
     "Application.GeneralizedHarmonic.executor": "Run",
     "Application.GreatCircle.executor": "Run",
     "Application.GreatCircle2.executor": "Run",
     "Application.HelloGoodbye.executor": "Run",
     "Application.HelloWorld.executor": "Run",
+    "Application.MatrixMultiplication.executor": "Run",
+    "Application.Minesweeper.executor": "Run",
     "Application.RandomWalker.executor": "Run",
     "Application.RandomWalkers.executor": "Run",
     "Application.RightTriangle.executor": "Run",
+    "Application.ThueMorse.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/ikhsansigmaputra/belajar/Coursera-CS-Programming-with-a-Purpose"
+    "last_opened_file_path": "/Users/ikhsansigmaputra/belajar/Coursera-CS-Programming-with-a-Purpose",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -131,7 +146,7 @@
       <recent name="$PROJECT_DIR$/hello" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RandomWalkers">
+  <component name="RunManager" selected="Application.Minesweeper">
     <configuration name="BandMatrix" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BandMatrix" />
       <module name="Computer Science" />
@@ -140,10 +155,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BinomialCoefficients" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinomialCoefficients" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Birthday" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Birthday" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="2 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BirthdayOther" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BirthdayOther" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="365 1000000" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CMYKtoRGB" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CMYKtoRGB" />
       <module name="Computer Science" />
       <option name="PROGRAM_PARAMETERS" value="0.953125 0.5 0.703125 0.515625" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscreteDistribution" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DiscreteDistribution" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="25 10 10 10 10 10 50" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindDuplicate" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -187,6 +242,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MatrixMultiplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MatrixMultiplication" />
+      <module name="Computer Science" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Minesweeper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Minesweeper" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="10 1 5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RandomWalker" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RandomWalker" />
       <module name="Computer Science" />
@@ -211,7 +281,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThueMorse" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThueMorse" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.Birthday" />
+      <item itemvalue="Application.BirthdayOther" />
+      <item itemvalue="Application.DiscreteDistribution" />
+      <item itemvalue="Application.ThueMorse" />
+      <item itemvalue="Application.BinomialCoefficients" />
       <item itemvalue="Application.BandMatrix" />
       <item itemvalue="Application.RandomWalker" />
       <item itemvalue="Application.RandomWalkers" />
@@ -220,11 +303,17 @@
       <item itemvalue="Application.GreatCircle2" />
       <item itemvalue="Application.RightTriangle" />
       <item itemvalue="Application.CMYKtoRGB" />
+      <item itemvalue="Application.Minesweeper" />
+      <item itemvalue="Application.FindDuplicate" />
+      <item itemvalue="Application.MatrixMultiplication" />
       <item itemvalue="Application.HelloGoodbye" />
       <item itemvalue="Application.HelloWorld" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Minesweeper" />
+        <item itemvalue="Application.MatrixMultiplication" />
+        <item itemvalue="Application.FindDuplicate" />
         <item itemvalue="Application.HelloGoodbye" />
         <item itemvalue="Application.HelloWorld" />
       </list>
@@ -262,7 +351,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763724079635</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Solution of the programming assignment Conditionals and Loops.">
+      <option name="closed" value="true" />
+      <created>1763767263447</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1763767263447</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -315,6 +412,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init with Project skeleton" />
     <MESSAGE value="Solution of the programming assignment Hello, World." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution of the programming assignment Hello, World." />
+    <MESSAGE value="Solution of the programming assignment Conditionals and Loops." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution of the programming assignment Conditionals and Loops." />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
