@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="Solution of the programming assignment Conditionals and Loops.">
-      <change afterPath="$PROJECT_DIR$/BinomialCoefficients.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Birthday.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BirthdayOther.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DiscreteDistribution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FindDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MatrixMultiplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Minesweeper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThueMorse.java" afterDir="false" />
+    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="Solution of the programming assignment Input and Output.">
+      <change afterPath="$PROJECT_DIR$/letters.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShannonEntropy.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShannonEntropy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorldMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/WorldMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +105,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AverageMagnitudeAveragePowerZeroCrossings.executor": "Run",
     "Application.BandMatrix.executor": "Run",
     "Application.BinomialCoefficients.executor": "Run",
     "Application.Birthday.executor": "Run",
@@ -117,27 +113,40 @@
     "Application.Birthday1.executor": "Run",
     "Application.Birthdays.executor": "Run",
     "Application.CMYKtoRGB.executor": "Run",
+    "Application.Checkerboard.executor": "Run",
     "Application.DiscreteDistribution.executor": "Run",
+    "Application.FilterRepeated.executor": "Run",
     "Application.FindDuplicate.executor": "Run",
     "Application.GeneralizedHarmonic.executor": "Run",
     "Application.GreatCircle.executor": "Run",
     "Application.GreatCircle2.executor": "Run",
     "Application.HelloGoodbye.executor": "Run",
     "Application.HelloWorld.executor": "Run",
+    "Application.Histogram.executor": "Run",
+    "Application.LongestRun.executor": "Run",
     "Application.MatrixMultiplication.executor": "Run",
     "Application.Minesweeper.executor": "Run",
+    "Application.MissingValue.executor": "Run",
+    "Application.PlotFilter.executor": "Run",
     "Application.RandomWalker.executor": "Run",
     "Application.RandomWalkers.executor": "Run",
     "Application.RightTriangle.executor": "Run",
+    "Application.ShannonEntropy.executor": "Run",
+    "Application.Spirographs.executor": "Run",
     "Application.ThueMorse.executor": "Run",
+    "Application.WorldMap.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHELLCHECK.PATH": "/Users/ikhsansigmaputra/Library/Application Support/JetBrains/IdeaIC2025.2/plugins/Shell Script/shellcheck",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/ikhsansigmaputra/belajar/Coursera-CS-Programming-with-a-Purpose",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -146,7 +155,16 @@
       <recent name="$PROJECT_DIR$/hello" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Minesweeper">
+  <component name="RunManager" selected="Application.WorldMap">
+    <configuration name="AverageMagnitudeAveragePowerZeroCrossings" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AverageMagnitudeAveragePowerZeroCrossings" />
+      <module name="Computer Science" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="$PROJECT_DIR$/averages.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BandMatrix" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BandMatrix" />
       <module name="Computer Science" />
@@ -187,10 +205,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Checkerboard" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Checkerboard" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DiscreteDistribution" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DiscreteDistribution" />
       <module name="Computer Science" />
       <option name="PROGRAM_PARAMETERS" value="25 10 10 10 10 10 50" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilterRepeated" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FilterRepeated" />
+      <module name="Computer Science" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="$PROJECT_DIR$/longest_run.txt" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -227,17 +262,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloGoodbye" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloGoodbye" />
+    <configuration name="Histogram" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Histogram" />
       <module name="Computer Science" />
-      <option name="PROGRAM_PARAMETERS" value="Bob Kevin" />
+      <option name="PROGRAM_PARAMETERS" value="15 0 100" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="$PROJECT_DIR$/histogram.txt" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
+    <configuration name="LongestRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestRun" />
       <module name="Computer Science" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="$PROJECT_DIR$/longest_run.txt" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -253,6 +292,25 @@
       <option name="MAIN_CLASS_NAME" value="Minesweeper" />
       <module name="Computer Science" />
       <option name="PROGRAM_PARAMETERS" value="10 1 5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MissingValue" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MissingValue" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="9" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="$PROJECT_DIR$/distinct.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlotFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PlotFilter" />
+      <module name="Computer Science" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="$PROJECT_DIR$/USA.txt" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -281,6 +339,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShannonEntropy" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ShannonEntropy" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="100" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="$PROJECT_DIR$/letters.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spirographs" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Spirographs" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="10 1 5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThueMorse" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ThueMorse" />
       <module name="Computer Science" />
@@ -289,7 +365,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WorldMap" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WorldMap" />
+      <module name="Computer Science" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="$PROJECT_DIR$/world.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.WorldMap" />
+      <item itemvalue="Application.Checkerboard" />
+      <item itemvalue="Application.ShannonEntropy" />
+      <item itemvalue="Application.Spirographs" />
+      <item itemvalue="Application.AverageMagnitudeAveragePowerZeroCrossings" />
+      <item itemvalue="Application.Histogram" />
+      <item itemvalue="Application.FilterRepeated" />
+      <item itemvalue="Application.MissingValue" />
       <item itemvalue="Application.Birthday" />
       <item itemvalue="Application.BirthdayOther" />
       <item itemvalue="Application.DiscreteDistribution" />
@@ -303,19 +396,19 @@
       <item itemvalue="Application.GreatCircle2" />
       <item itemvalue="Application.RightTriangle" />
       <item itemvalue="Application.CMYKtoRGB" />
+      <item itemvalue="Application.LongestRun" />
+      <item itemvalue="Application.PlotFilter" />
       <item itemvalue="Application.Minesweeper" />
       <item itemvalue="Application.FindDuplicate" />
       <item itemvalue="Application.MatrixMultiplication" />
-      <item itemvalue="Application.HelloGoodbye" />
-      <item itemvalue="Application.HelloWorld" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestRun" />
+        <item itemvalue="Application.PlotFilter" />
         <item itemvalue="Application.Minesweeper" />
         <item itemvalue="Application.MatrixMultiplication" />
         <item itemvalue="Application.FindDuplicate" />
-        <item itemvalue="Application.HelloGoodbye" />
-        <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -359,7 +452,39 @@
       <option name="project" value="LOCAL" />
       <updated>1763767263447</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Solution of the programming assignment Arrays.">
+      <option name="closed" value="true" />
+      <created>1764020404158</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1764020404158</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Solution of the programming assignment Input and Output.">
+      <option name="closed" value="true" />
+      <created>1764198297629</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1764198297629</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Solution of the programming assignment Input and Output.">
+      <option name="closed" value="true" />
+      <created>1764244226478</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1764244226478</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Solution of the programming assignment Input and Output.">
+      <option name="closed" value="true" />
+      <created>1764260612582</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1764260612582</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -413,7 +538,9 @@
     <MESSAGE value="Init with Project skeleton" />
     <MESSAGE value="Solution of the programming assignment Hello, World." />
     <MESSAGE value="Solution of the programming assignment Conditionals and Loops." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution of the programming assignment Conditionals and Loops." />
+    <MESSAGE value="Solution of the programming assignment Arrays." />
+    <MESSAGE value="Solution of the programming assignment Input and Output." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution of the programming assignment Input and Output." />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
