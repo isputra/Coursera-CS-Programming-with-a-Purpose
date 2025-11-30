@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="Solution of the programming assignment Input and Output.">
-      <change afterPath="$PROJECT_DIR$/letters.txt" afterDir="false" />
+    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="Solution of the programming assignment Functions and Libraries">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShannonEntropy.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShannonEntropy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WorldMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/WorldMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AudioCollage.java" beforeDir="false" afterPath="$PROJECT_DIR$/AudioCollage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +57,9 @@
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -105,6 +106,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ActivationFunction.executor": "Run",
+    "Application.AudioCollage.executor": "Run",
     "Application.AverageMagnitudeAveragePowerZeroCrossings.executor": "Run",
     "Application.BandMatrix.executor": "Run",
     "Application.BinomialCoefficients.executor": "Run",
@@ -115,19 +118,24 @@
     "Application.CMYKtoRGB.executor": "Run",
     "Application.Checkerboard.executor": "Run",
     "Application.DiscreteDistribution.executor": "Run",
+    "Application.Divisors.executor": "Run",
     "Application.FilterRepeated.executor": "Run",
     "Application.FindDuplicate.executor": "Run",
+    "Application.FourierSpikes.executor": "Run",
+    "Application.FunctionsAndLibraries.executor": "Debug",
     "Application.GeneralizedHarmonic.executor": "Run",
     "Application.GreatCircle.executor": "Run",
     "Application.GreatCircle2.executor": "Run",
     "Application.HelloGoodbye.executor": "Run",
     "Application.HelloWorld.executor": "Run",
     "Application.Histogram.executor": "Run",
+    "Application.LargestLogarithm.executor": "Run",
     "Application.LongestRun.executor": "Run",
     "Application.MatrixMultiplication.executor": "Run",
     "Application.Minesweeper.executor": "Run",
     "Application.MissingValue.executor": "Run",
     "Application.PlotFilter.executor": "Run",
+    "Application.PokerAnalysis.executor": "Run",
     "Application.RandomWalker.executor": "Run",
     "Application.RandomWalkers.executor": "Run",
     "Application.RightTriangle.executor": "Run",
@@ -155,7 +163,22 @@
       <recent name="$PROJECT_DIR$/hello" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WorldMap">
+  <component name="RunManager" selected="Application.AudioCollage">
+    <configuration name="ActivationFunction" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ActivationFunction" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="-0.5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AudioCollage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AudioCollage" />
+      <module name="Computer Science" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AverageMagnitudeAveragePowerZeroCrossings" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AverageMagnitudeAveragePowerZeroCrossings" />
       <module name="Computer Science" />
@@ -221,6 +244,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Divisors" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Divisors" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="987 610" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FilterRepeated" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FilterRepeated" />
       <module name="Computer Science" />
@@ -230,10 +261,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindDuplicate" />
+    <configuration name="FourierSpikes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FourierSpikes" />
       <module name="Computer Science" />
-      <option name="PROGRAM_PARAMETERS" value="8" />
+      <option name="PROGRAM_PARAMETERS" value="500" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionsAndLibraries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionsAndLibraries" />
+      <module name="Computer Science" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -281,21 +319,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixMultiplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MatrixMultiplication" />
-      <module name="Computer Science" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Minesweeper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Minesweeper" />
-      <module name="Computer Science" />
-      <option name="PROGRAM_PARAMETERS" value="10 1 5" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MissingValue" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MissingValue" />
       <module name="Computer Science" />
@@ -306,11 +329,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlotFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PlotFilter" />
+    <configuration name="PokerAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PokerAnalysis" />
       <module name="Computer Science" />
-      <option name="REDIRECT_INPUT" value="true" />
-      <option name="INPUT_FILE" value="$PROJECT_DIR$/USA.txt" />
+      <option name="PROGRAM_PARAMETERS" value="1000000" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -375,6 +397,8 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Divisors" />
+      <item itemvalue="Application.ActivationFunction" />
       <item itemvalue="Application.WorldMap" />
       <item itemvalue="Application.Checkerboard" />
       <item itemvalue="Application.ShannonEntropy" />
@@ -396,19 +420,19 @@
       <item itemvalue="Application.GreatCircle2" />
       <item itemvalue="Application.RightTriangle" />
       <item itemvalue="Application.CMYKtoRGB" />
+      <item itemvalue="Application.AudioCollage" />
+      <item itemvalue="Application.PokerAnalysis" />
+      <item itemvalue="Application.FourierSpikes" />
+      <item itemvalue="Application.FunctionsAndLibraries" />
       <item itemvalue="Application.LongestRun" />
-      <item itemvalue="Application.PlotFilter" />
-      <item itemvalue="Application.Minesweeper" />
-      <item itemvalue="Application.FindDuplicate" />
-      <item itemvalue="Application.MatrixMultiplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AudioCollage" />
+        <item itemvalue="Application.PokerAnalysis" />
+        <item itemvalue="Application.FunctionsAndLibraries" />
+        <item itemvalue="Application.FourierSpikes" />
         <item itemvalue="Application.LongestRun" />
-        <item itemvalue="Application.PlotFilter" />
-        <item itemvalue="Application.Minesweeper" />
-        <item itemvalue="Application.MatrixMultiplication" />
-        <item itemvalue="Application.FindDuplicate" />
       </list>
     </recent_temporary>
   </component>
@@ -484,7 +508,47 @@
       <option name="project" value="LOCAL" />
       <updated>1764260612582</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Solution of the programming assignment Input and Output.">
+      <option name="closed" value="true" />
+      <created>1764261387397</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1764261387397</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Solution of the programming assignment Functions and Libraries">
+      <option name="closed" value="true" />
+      <created>1764529980815</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1764529980815</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Solution of the programming assignment Functions and Libraries">
+      <option name="closed" value="true" />
+      <created>1764532196990</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1764532196990</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Solution of the programming assignment Functions and Libraries">
+      <option name="closed" value="true" />
+      <created>1764534542822</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1764534542822</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Solution of the programming assignment Functions and Libraries">
+      <option name="closed" value="true" />
+      <created>1764534569850</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1764534569850</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -540,7 +604,8 @@
     <MESSAGE value="Solution of the programming assignment Conditionals and Loops." />
     <MESSAGE value="Solution of the programming assignment Arrays." />
     <MESSAGE value="Solution of the programming assignment Input and Output." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution of the programming assignment Input and Output." />
+    <MESSAGE value="Solution of the programming assignment Functions and Libraries" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution of the programming assignment Functions and Libraries" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
