@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="Solution of the programming assignment Functions and Libraries">
+      <change afterPath="$PROJECT_DIR$/A4paper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Combinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fileTemplates/includes/File Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fileTemplates/includes/File Header.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AudioCollage.java" beforeDir="false" afterPath="$PROJECT_DIR$/AudioCollage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +109,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.A4paper.executor": "Run",
     "Application.ActivationFunction.executor": "Run",
     "Application.AudioCollage.executor": "Run",
     "Application.AverageMagnitudeAveragePowerZeroCrossings.executor": "Run",
@@ -117,6 +121,7 @@
     "Application.Birthdays.executor": "Run",
     "Application.CMYKtoRGB.executor": "Run",
     "Application.Checkerboard.executor": "Run",
+    "Application.Combinations.executor": "Run",
     "Application.DiscreteDistribution.executor": "Run",
     "Application.Divisors.executor": "Run",
     "Application.FilterRepeated.executor": "Run",
@@ -138,6 +143,7 @@
     "Application.PokerAnalysis.executor": "Run",
     "Application.RandomWalker.executor": "Run",
     "Application.RandomWalkers.executor": "Run",
+    "Application.Recursion.executor": "Run",
     "Application.RightTriangle.executor": "Run",
     "Application.ShannonEntropy.executor": "Run",
     "Application.Spirographs.executor": "Run",
@@ -163,7 +169,15 @@
       <recent name="$PROJECT_DIR$/hello" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AudioCollage">
+  <component name="RunManager" selected="Application.Combinations">
+    <configuration name="A4paper" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A4paper" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ActivationFunction" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ActivationFunction" />
       <module name="Computer Science" />
@@ -232,6 +246,14 @@
       <option name="MAIN_CLASS_NAME" value="Checkerboard" />
       <module name="Computer Science" />
       <option name="PROGRAM_PARAMETERS" value="8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Combinations" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Combinations" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="4" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -310,15 +332,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LongestRun" />
-      <module name="Computer Science" />
-      <option name="REDIRECT_INPUT" value="true" />
-      <option name="INPUT_FILE" value="$PROJECT_DIR$/longest_run.txt" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MissingValue" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MissingValue" />
       <module name="Computer Science" />
@@ -349,6 +362,13 @@
       <option name="MAIN_CLASS_NAME" value="RandomWalkers" />
       <module name="Computer Science" />
       <option name="PROGRAM_PARAMETERS" value="160 100000" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion" />
+      <module name="Computer Science" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -397,6 +417,8 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Combinations" />
+      <item itemvalue="Application.A4paper" />
       <item itemvalue="Application.Divisors" />
       <item itemvalue="Application.ActivationFunction" />
       <item itemvalue="Application.WorldMap" />
@@ -420,19 +442,19 @@
       <item itemvalue="Application.GreatCircle2" />
       <item itemvalue="Application.RightTriangle" />
       <item itemvalue="Application.CMYKtoRGB" />
+      <item itemvalue="Application.Recursion" />
       <item itemvalue="Application.AudioCollage" />
       <item itemvalue="Application.PokerAnalysis" />
       <item itemvalue="Application.FourierSpikes" />
       <item itemvalue="Application.FunctionsAndLibraries" />
-      <item itemvalue="Application.LongestRun" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Recursion" />
         <item itemvalue="Application.AudioCollage" />
         <item itemvalue="Application.PokerAnalysis" />
         <item itemvalue="Application.FunctionsAndLibraries" />
         <item itemvalue="Application.FourierSpikes" />
-        <item itemvalue="Application.LongestRun" />
       </list>
     </recent_temporary>
   </component>
@@ -548,7 +570,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764534569850</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Solution of the programming assignment Functions and Libraries">
+      <option name="closed" value="true" />
+      <created>1764544776137</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1764544776137</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">
@@ -606,6 +636,17 @@
     <MESSAGE value="Solution of the programming assignment Input and Output." />
     <MESSAGE value="Solution of the programming assignment Functions and Libraries" />
     <option name="LAST_COMMIT_MESSAGE" value="Solution of the programming assignment Functions and Libraries" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Combinations.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
