@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="Solution of the programming assignment Functions and Libraries">
-      <change afterPath="$PROJECT_DIR$/A4paper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Combinations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fileTemplates/includes/File Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fileTemplates/includes/File Header.java" afterDir="false" />
+    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="Solution of the programming assignment Recursion">
+      <change afterPath="$PROJECT_DIR$/AnimatedHanoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hanoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RecursiveSquares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RevesPuzzle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrinomialBrute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrinomialDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrinomialDP2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,69 +110,76 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.A4paper.executor": "Run",
-    "Application.ActivationFunction.executor": "Run",
-    "Application.AudioCollage.executor": "Run",
-    "Application.AverageMagnitudeAveragePowerZeroCrossings.executor": "Run",
-    "Application.BandMatrix.executor": "Run",
-    "Application.BinomialCoefficients.executor": "Run",
-    "Application.Birthday.executor": "Run",
-    "Application.Birthday0.executor": "Run",
-    "Application.Birthday1.executor": "Run",
-    "Application.Birthdays.executor": "Run",
-    "Application.CMYKtoRGB.executor": "Run",
-    "Application.Checkerboard.executor": "Run",
-    "Application.Combinations.executor": "Run",
-    "Application.DiscreteDistribution.executor": "Run",
-    "Application.Divisors.executor": "Run",
-    "Application.FilterRepeated.executor": "Run",
-    "Application.FindDuplicate.executor": "Run",
-    "Application.FourierSpikes.executor": "Run",
-    "Application.FunctionsAndLibraries.executor": "Debug",
-    "Application.GeneralizedHarmonic.executor": "Run",
-    "Application.GreatCircle.executor": "Run",
-    "Application.GreatCircle2.executor": "Run",
-    "Application.HelloGoodbye.executor": "Run",
-    "Application.HelloWorld.executor": "Run",
-    "Application.Histogram.executor": "Run",
-    "Application.LargestLogarithm.executor": "Run",
-    "Application.LongestRun.executor": "Run",
-    "Application.MatrixMultiplication.executor": "Run",
-    "Application.Minesweeper.executor": "Run",
-    "Application.MissingValue.executor": "Run",
-    "Application.PlotFilter.executor": "Run",
-    "Application.PokerAnalysis.executor": "Run",
-    "Application.RandomWalker.executor": "Run",
-    "Application.RandomWalkers.executor": "Run",
-    "Application.Recursion.executor": "Run",
-    "Application.RightTriangle.executor": "Run",
-    "Application.ShannonEntropy.executor": "Run",
-    "Application.Spirographs.executor": "Run",
-    "Application.ThueMorse.executor": "Run",
-    "Application.WorldMap.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHELLCHECK.PATH": "/Users/ikhsansigmaputra/Library/Application Support/JetBrains/IdeaIC2025.2/plugins/Shell Script/shellcheck",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/ikhsansigmaputra/belajar/Coursera-CS-Programming-with-a-Purpose",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.A4paper.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ActivationFunction.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnimatedHanoi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AudioCollage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AverageMagnitudeAveragePowerZeroCrossings.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BandMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinomialCoefficients.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Birthday.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Birthday0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Birthday1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Birthdays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CMYKtoRGB.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Checkerboard.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Combinations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DiscreteDistribution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Divisors.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FilterRepeated.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindDuplicate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FourierSpikes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FunctionsAndLibraries.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.GeneralizedHarmonic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GreatCircle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GreatCircle2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hanoi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloGoodbye.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Histogram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LargestLogarithm.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestRun.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MatrixMultiplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Minesweeper.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MissingValue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PlotFilter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PokerAnalysis.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RandomWalker.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RandomWalkers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Recursion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RecursiveSquares.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RevesPuzzle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RightTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShannonEntropy.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Spirographs.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThueMorse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TrinomialBrute.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TrinomialDP.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TrinomialDP2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WorldMap.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;/Users/ikhsansigmaputra/Library/Application Support/JetBrains/IdeaIC2025.2/plugins/Shell Script/shellcheck&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ikhsansigmaputra/belajar/Coursera-CS-Programming-with-a-Purpose&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/hello" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Combinations">
+  <component name="RunManager" selected="Application.RevesPuzzle">
     <configuration name="A4paper" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A4paper" />
       <module name="Computer Science" />
@@ -182,6 +192,14 @@
       <option name="MAIN_CLASS_NAME" value="ActivationFunction" />
       <module name="Computer Science" />
       <option name="PROGRAM_PARAMETERS" value="-0.5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimatedHanoi" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnimatedHanoi" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -322,6 +340,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Hanoi" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hanoi" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Histogram" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Histogram" />
       <module name="Computer Science" />
@@ -373,6 +399,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RecursiveSquares" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RecursiveSquares" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RevesPuzzle" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RevesPuzzle" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="9" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RightTriangle" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RightTriangle" />
       <module name="Computer Science" />
@@ -407,6 +449,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TrinomialBrute" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TrinomialBrute" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="15 4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrinomialDP" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TrinomialDP" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="24 12" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrinomialDP2" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TrinomialDP2" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="21 9" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WorldMap" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WorldMap" />
       <module name="Computer Science" />
@@ -417,6 +483,13 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.RecursiveSquares" />
+      <item itemvalue="Application.Hanoi" />
+      <item itemvalue="Application.AnimatedHanoi" />
+      <item itemvalue="Application.RevesPuzzle" />
+      <item itemvalue="Application.TrinomialDP2" />
+      <item itemvalue="Application.TrinomialDP" />
+      <item itemvalue="Application.TrinomialBrute" />
       <item itemvalue="Application.Combinations" />
       <item itemvalue="Application.A4paper" />
       <item itemvalue="Application.Divisors" />
@@ -578,7 +651,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764544776137</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Solution of the programming assignment Recursion">
+      <option name="closed" value="true" />
+      <created>1764803888440</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1764803888440</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -635,7 +716,8 @@
     <MESSAGE value="Solution of the programming assignment Arrays." />
     <MESSAGE value="Solution of the programming assignment Input and Output." />
     <MESSAGE value="Solution of the programming assignment Functions and Libraries" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution of the programming assignment Functions and Libraries" />
+    <MESSAGE value="Solution of the programming assignment Recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution of the programming assignment Recursion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -645,6 +727,10 @@
           <line>14</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="13" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
