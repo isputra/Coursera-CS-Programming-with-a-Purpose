@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="Solution of the programming assignment Recursion">
-      <change afterPath="$PROJECT_DIR$/Inversions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaximumSquareSubmatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ramanujan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/square10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/square6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/square7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/square7a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/square8.txt" afterDir="false" />
+    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="Solution of the programming assignment Using Data Types">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KernelFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/KernelFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +133,9 @@
     "Application.HelloGoodbye.executor": "Run",
     "Application.HelloWorld.executor": "Run",
     "Application.Histogram.executor": "Run",
+    "Application.Huntingtons.executor": "Run",
     "Application.Inversions.executor": "Run",
+    "Application.KernelFilter.executor": "Run",
     "Application.LargestLogarithm.executor": "Run",
     "Application.LongestRun.executor": "Run",
     "Application.MatrixMultiplication.executor": "Run",
@@ -183,7 +178,7 @@
       <recent name="$PROJECT_DIR$/hello" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ramanujan">
+  <component name="RunManager" selected="Application.KernelFilter">
     <configuration name="A4paper" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A4paper" />
       <module name="Computer Science" />
@@ -362,10 +357,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Huntingtons" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Huntingtons" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="repeats64.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Inversions" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Inversions" />
       <module name="Computer Science" />
       <option name="PROGRAM_PARAMETERS" value="20 190" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KernelFilter" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KernelFilter" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="img/shield.png" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -512,6 +523,8 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.KernelFilter" />
+      <item itemvalue="Application.Huntingtons" />
       <item itemvalue="Application.MaximumSquareSubmatrix" />
       <item itemvalue="Application.Ramanujan" />
       <item itemvalue="Application.Inversions" />
@@ -699,7 +712,31 @@
       <option name="project" value="LOCAL" />
       <updated>1765750972909</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Solution of the programming assignment Performance">
+      <option name="closed" value="true" />
+      <created>1765930716559</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1765930716559</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Solution of the programming assignment Using Data Types">
+      <option name="closed" value="true" />
+      <created>1766414484894</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1766414484894</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Solution of the programming assignment Using Data Types">
+      <option name="closed" value="true" />
+      <created>1766414751616</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1766414751616</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView">
@@ -757,7 +794,9 @@
     <MESSAGE value="Solution of the programming assignment Input and Output." />
     <MESSAGE value="Solution of the programming assignment Functions and Libraries" />
     <MESSAGE value="Solution of the programming assignment Recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution of the programming assignment Recursion" />
+    <MESSAGE value="Solution of the programming assignment Performance" />
+    <MESSAGE value="Solution of the programming assignment Using Data Types" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution of the programming assignment Using Data Types" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -777,9 +816,23 @@
           <line>19</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Huntingtons.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/KernelFilter.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="13" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="32" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
