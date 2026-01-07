@@ -6,9 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="Solution of the programming assignment Creating Data Types">
       <change afterPath="$PROJECT_DIR$/Bar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BarChart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BarChartMine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BarChartRacer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bar_chart_race_music.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cities.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/countries.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/game-of-thrones.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/infinity-war.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Clock.java" beforeDir="false" afterPath="$PROJECT_DIR$/Clock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ColorHSB.java" beforeDir="false" afterPath="$PROJECT_DIR$/ColorHSB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +120,9 @@
     "Application.AudioCollage.executor": "Run",
     "Application.AverageMagnitudeAveragePowerZeroCrossings.executor": "Run",
     "Application.BandMatrix.executor": "Run",
+    "Application.Bar.executor": "Run",
+    "Application.BarChart.executor": "Run",
+    "Application.BarChartRacer.executor": "Run",
     "Application.BinomialCoefficients.executor": "Run",
     "Application.Birthday.executor": "Run",
     "Application.Birthday0.executor": "Run",
@@ -169,7 +178,7 @@
     "SHELLCHECK.PATH": "/Users/ikhsansigmaputra/Library/Application Support/JetBrains/IdeaIC2025.2/plugins/Shell Script/shellcheck",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/ikhsansigmaputra/belajar/Coursera-CS-Programming-with-a-Purpose",
+    "last_opened_file_path": "/Users/ikhsansigmaputra/belajar/Coursera-CS-Programming-with-a-Purpose/data",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -178,11 +187,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/hello" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ColorHSB">
+  <component name="RunManager" selected="Application.BarChartRacer">
     <configuration name="A4paper" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A4paper" />
       <module name="Computer Science" />
@@ -207,13 +220,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AudioCollage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AudioCollage" />
-      <module name="Computer Science" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AverageMagnitudeAveragePowerZeroCrossings" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AverageMagnitudeAveragePowerZeroCrossings" />
       <module name="Computer Science" />
@@ -227,6 +233,36 @@
       <option name="MAIN_CLASS_NAME" value="BandMatrix" />
       <module name="Computer Science" />
       <option name="PROGRAM_PARAMETERS" value="8 3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Bar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bar" />
+      <module name="Computer Science" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BarChart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BarChart" />
+      <module name="Computer Science" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BarChartMine" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BarChartMine" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="data/cities.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BarChartRacer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BarChartRacer" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="data/cities.txt 12" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -321,13 +357,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionsAndLibraries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FunctionsAndLibraries" />
-      <module name="Computer Science" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GeneralizedHarmonic" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GeneralizedHarmonic" />
       <module name="Computer Science" />
@@ -409,14 +438,6 @@
       <option name="PROGRAM_PARAMETERS" value="9" />
       <option name="REDIRECT_INPUT" value="true" />
       <option name="INPUT_FILE" value="$PROJECT_DIR$/distinct.txt" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PokerAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PokerAnalysis" />
-      <module name="Computer Science" />
-      <option name="PROGRAM_PARAMETERS" value="1000000" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -536,6 +557,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.BarChartMine" />
       <item itemvalue="Application.ColorHSB" />
       <item itemvalue="Application.KernelFilter" />
       <item itemvalue="Application.Huntingtons" />
@@ -574,19 +596,19 @@
       <item itemvalue="Application.GreatCircle2" />
       <item itemvalue="Application.RightTriangle" />
       <item itemvalue="Application.CMYKtoRGB" />
+      <item itemvalue="Application.Bar" />
+      <item itemvalue="Application.BarChartOther" />
+      <item itemvalue="Application.BarChartRacer" />
       <item itemvalue="Application.Clock" />
       <item itemvalue="Application.Recursion" />
-      <item itemvalue="Application.AudioCollage" />
-      <item itemvalue="Application.PokerAnalysis" />
-      <item itemvalue="Application.FunctionsAndLibraries" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BarChartRacer" />
+        <item itemvalue="Application.Bar" />
+        <item itemvalue="Application.BarChartOther" />
         <item itemvalue="Application.Clock" />
         <item itemvalue="Application.Recursion" />
-        <item itemvalue="Application.AudioCollage" />
-        <item itemvalue="Application.PokerAnalysis" />
-        <item itemvalue="Application.FunctionsAndLibraries" />
       </list>
     </recent_temporary>
   </component>
@@ -766,7 +788,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767625533273</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Solution of the programming assignment Creating Data Types">
+      <option name="closed" value="true" />
+      <created>1767653725535</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1767653725535</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView">
